@@ -1,0 +1,36 @@
+<div id="exhibitcontent"> 
+		<h3> Upcoming and Current Exhibits</h3>
+		
+	<ul id="exhibits" class="grid">
+	
+		<li>
+			<a href="#">
+				<img src="images/davinci1.png"/>
+				<p> Da Vinci </p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/ssu.png"/>
+				<p> Shawnee State Students </p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="#">
+				<img src="images/egypt-2.png"/>
+				<p> Egypt </p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/007.png"/>
+				<p> James Bond 007 </p>
+			</a>
+		</li>
+		
+		
+	</ul>
+
+	
+		</div><!-------exhibitcontent-------->

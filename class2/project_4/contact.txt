@@ -1,0 +1,39 @@
+<div id="contact"> 
+	<script>
+	$('#contact').ready(function() {
+	$('.formerrors').hide();
+	
+	$('#submitbutton').click(function() {
+		var n = testname();
+		var em = testemail();
+		var ph = testphone();
+		var com= testcomment();
+		
+			if(n && em && ph && com) {
+				$('#errormessage').hide();
+			} else {
+				$('#errormessage').show();
+			return false;
+			}
+		}
+	);
+});
+	</script>
+			<form action="#">
+				<label for="name">Name:</label><br />
+					<input type="text" id="name"><span id="namestar" class="formerrors">*</span><br />
+					
+				<label for="email">Email:</label><br />
+					<input type="text" id="email"><span id="emailstar" class="formerrors">*</span><br />
+					
+				<label for="phone">Phone:</label><br />
+					<input type="text" id="phone"> <span id="phonestar" class="formerrors">*</span><br /> 
+					
+				<label for="comment">Questions/Comments:</label><br />
+					<textarea type="text" id="comment"></textarea><span id="commentstar" class="formerrors">*</span><br />
+				
+				<input type="submit" value="Submit" id="submitbutton"><span id="errormessage" class="formerrors"> Error on the form, please go back and try again!</span>
+			</form>
+		
+
+</div> <!------CONTACT------>

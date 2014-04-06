@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row:before, .row:after {
+	display: table;
+	content: "";
+	clear: both;
+	line-height: 0;
+}
+/* standards */
+
+body {
+	background-image: url('images/dark_wall.png');
+	font-family: 'Century Gothic' , 'Helvetica' , sans-serif;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+#content {
+	padding: 3em 0;
+	
+	
+}
+
+#header {
+ 	
+	background-color: #606060;
+	padding-bottom: 25px;	
+	
+	
+}
+
+#header a {
+	text-decoration: none;
+	
+}
+
+.menu1 {
+	text-align: center; 
+}
+ 
+.menu1 li {
+	display:inline-block;
+	list-style: none;
+	margin: 0 1em;
+	
+	
+	
+	}
+	
+
+
+.menu1 li a {
+	color: black ;
+	font-weight: bold;
+	font-size: 24px;
+}
+	
+.logo {
+	margin:  4%;
+}
+	
+.menu1 li.select a {
+	color: #FA7924;
+	
+}
+#feature { 
+	text-align: center;
+}
+
+.mission {
+	background-color: #606060;
+	padding: 5px;
+	margin: 5em;
+}
+
+#menu2 {
+	float: left;
+}
+
+#menu2 li {
+	list-style: none;
+	margin: 0 1em;
+}
+
+#menu2 li a {
+	color: white;
+	text-decoration: none;
+}
+
+#footer {
+	background-color: #606060;
+	padding: 5px;
+	clear: both;
+}
+
+#footer li {
+	list-style: none;
+	
+}
+#footer ul {
+	float:left;
+	width: auto;
+}
+
+#footer li a {
+	color:black;
+	text-decoration: none;
+}
+.copy {
+	float: right; 
+	width: 25%;
+}
+

@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.row {
+	max-width: 1000px;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+body {
+	background: #fff;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	background: #ccc;
+}
+
+p {
+	margin: 1em 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*-----------------------------------------------------------------------------------Header------------*/
+
+
+
+#header {
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	width: auto;
+	
+	
+	
+}
+
+#logo {
+		float: left;
+	
+	}
+
+#logo a {
+	display: block;
+	height: 60px;
+	width: 276px;
+	background: url(images/logo.png) no-repeat center top;
+	text-indent: -999em;	
+	
+	
+}
+
+#menu {
+	list-style: none;
+	font-size: 0.85em;
+	float: right;
+	padding-top: 1.5em;
+	
+}
+
+#menu li a {
+	display: block;
+
+}
+
+#menu li {
+	display: inline-block;
+	padding: 0 2em;
+}
+
+
+/*-----------------------------------------------------------------------------------Banner------------*/
+
+
+
+
+
+#content{
+	background: #eee;
+	padding-top: 3em;
+	padding-bottom: 5em;
+}
+
+#feature {
+	padding-bottom: 1.5em;
+}
+#feature img {
+	width: 100%;
+}
+
+#feature nav a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url(images/prev.png) no-repeat;
+	text-indent: -999em;
+	position: absolute;
+	top: 50%;
+	left: 1em;
+	margin-top: -30px;
+	
+}
+
+#feature nav a.next {
+	background-image: url(images/next.png);
+	left: auto;
+	right: 1em;
+	
+	
+}
+
+
+
+blockquote {
+	font-size: 28px;
+	font-weight: 800;
+	padding-bottom: 1.5em;
+}
+
+
+/*-----------------------------------------------------------------------------------Content------------*/
+
+
+#main {
+	
+}
+
+aside {
+	
+}
+
+
+
+/*-----------------------------------------------------------------------------------Footer------------*/
+
+
+#footer {
+	padding-top: 2em;
+	
+}
+
+#footer p {
+	font-size: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+
+
+
+
+
+

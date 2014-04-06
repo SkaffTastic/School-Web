@@ -1,0 +1,327 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+
+/* debug colors 
+.row {
+	background-color: rgba(255,0,0,0.05);
+	box-shadow: inset 0 0 1px rgba(255,0,0,0.15);
+}
+.item {
+	background-color: rgba(0,255,0,0.05);
+	box-shadow: inset 0 0 1px rgba(0,255,0,0.15);
+}
+------------------------------------------ */
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.row {
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+.row:before, .row:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+body {
+	background: #fff;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 800;
+}
+
+p {
+	margin: 1em 0;
+}
+
+a {
+	text-decoration: none;
+	color: #c33;
+}
+
+p a {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* ---------HEADER ------------------------------*/
+
+
+#header {
+	padding: 5em 0;
+}
+#logo{
+	margin-bottom: 2em;
+}
+#logo a {
+	display: block;
+	height: 140px;
+	background: url(images/logo.png) no-repeat center top;
+	text-indent: -999em;	
+	
+}
+
+#menu {
+	list-style: none;
+	font-size: 0.85em;
+	margin-bottom: 2em;
+	
+	
+}
+
+#menu li a {
+	display:block;
+	padding: 0.5em 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#menu li:first-child a {
+	border-top: 1px solid #ddd;
+}
+
+@media (min-width: 601px) {
+
+	#logo a {
+		background-size: contain;
+		padding-top: 61%;
+		line-height: 0;
+		height: auto;
+	}
+	
+	section  img {
+		float: left;
+		width: 44%;
+		margin-right: 2em;
+	}
+	
+	section article {
+		overflow: hidden;
+	}
+	
+}
+
+@media (min-width:601px) and (max-width:960px) {
+	#logo {
+		width: 33%;
+		max-width: 230px;
+		float: left;
+		margin-right: 2em;
+		
+	}
+	
+	
+	#menu {
+	overflow: hidden;
+	}
+	
+	#menu li {
+		width: 50%;
+		float: left;
+	}
+	#menu li:nth-child(odd) {
+		padding-right: 1em;
+	}
+	#menu li:nth-child(2) a {
+		border-top: 1px solid #ddd;
+		
+		
+	}
+}
+
+
+@media (min-width:961px){
+	aside {
+		width: 25%;		
+	}
+	section {
+		width: 75%;
+	}
+	aside, section {
+		float: left;
+		padding: 2em;
+	}
+	
+	
+	
+}
+
+@media (max-width:960px) {
+	section {
+		clear: left;
+	}
+}
+
+
+
+
+
+/* top 
+------------------------------------------ */
+#top {
+	background: #999;
+}
+
+#top li {
+	display: inline-block;
+}
+
+#top li a {
+	display: block;
+	color: #fff;
+	padding: 1em;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+	
+	#top {
+		text-align: center;
+	}
+	
+}
+
+
+
+/* soon 
+------------------------------------------ */
+#soon {
+	padding: 5em 0;
+	background: #eee;
+}
+
+#soon .item {
+	width: 25%;
+	float: left;
+	padding: 2em;
+}
+
+@media (min-width:601px) and (max-width:960px) {
+	
+	#soon .item {
+		width: 50%;
+	}
+	
+	#soon .item:nth-child(odd) {
+		clear: left;
+	}
+	
+}
+
+@media (max-width:600px) {
+	
+	#soon .item {
+		width: 100%;
+		padding: 2em 0;
+	}
+	
+	#soon .item img {
+		float: left;
+		width: 33%;
+		margin-right: 1em;
+	}
+	
+	#soon .item article {
+		overflow: hidden;
+	}
+	
+}
+
+
+/* info 
+------------------------------------------ */
+.info {
+	padding-bottom: 3em;
+	background: #999;
+	color: #fff;
+}
+.info .row {
+	padding-top: 3em;
+}
+@media (min-width:961px) {
+	.info .row:before {
+		display: block;
+		content: "";
+		width: 25%;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		top:0;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+		opacity: 0.25;		
+	}
+}
+
+.info:nth-child(odd) {
+	background: #666;
+}
+
+.info .item {
+	width: 25%;
+	float: left;
+	padding: 2em;
+}
+.info ul {
+	padding-left: 1.20em;
+}
+
+.info .item:first-child {
+	width: 50%;
+}
+
+@media (min-width:601px) and (max-width:960px) {
+
+	.info .item {
+		width: 50%;
+	}
+
+	.info .item:first-child {
+		width: 100%;
+	}
+
+}
+
+@media (max-width:600px) {
+
+	.info .item, .info .item:first-child {
+		width: 100%;
+		padding: 2em 0;
+	}
+	
+}
+
+footer {
+	padding: 2em 0;
+	background: #333;
+	color:#999;
+	text-align: center;
+	 text-transform: uppercase;
+}
+
+
+
+

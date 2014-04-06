@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Michael Skaff - Interactive Media - Spring 2014 </title>
+	
+	<link rel="stylesheet"	href="syle.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+
+<style>
+
+/* universal reset: set everything to zero for consistency */
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/* define and set horizontal bands */
+.row {
+	max-width: 1200px;
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/* contain and clear floated elements */
+.row:before, .row:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.grid {
+	margin-left: -2em;
+	margin-right: -2em;
+}
+	
+.grid .item {
+	
+	padding: 2em;
+	
+}
+
+@media (min-width:600px){
+	
+	.grid .item {
+		float: left;
+		width: 50%;
+	}
+	
+}
+
+@media (min-width:900px) {
+	
+	.grid.three .item {
+		width: 33.333%;
+	}
+	
+	.grid.four .item {
+		width: 25%;
+	}
+	
+	.grid.five .item {
+		width: 20%;
+	}
+	
+	.grid .item {}
+	
+	.grid.three .item:nth-child(3n+1),
+	.grid.four .item:nth-child(4n+1),
+	.grid.five .item:nth-child(5n+1) {
+		clear: left;
+	}
+	
+}
+
+.row h1 {
+	background: #ccc;
+}
+	
+	
+</style>
+<body>
+
+<div class="row">
+	<h1 > hello this is a row</h1>
+</div>
+
+<div class="row">
+	<div class="grid five">
+		<div class="item">hello this is a ITEM</div>
+			
+		<div class="item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</div>
+		
+		<div class="item">hello this is a ITEM</div>
+		
+		<div class="item">hello this is a ITEM</div>
+		
+		<div class="item">hello this is a ITEM</div>
+		
+		<div class="item">hello this is a row</div>
+	</div><!-----grid --->
+</div>
+
+
+
+ </body>
+
+
+
+
+</html>

@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Stalinist+One);
+
+body {
+	background: #444;
+	color: #ddd;
+	font-family: helvetica, sans-serif;
+	margin: 60px;	
+}
+
+a {
+	color: #bada55;
+	text-decoration: none;
+}
+
+#header {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.primary {
+	width: 60%;	
+	float: left;
+}
+
+.primary h2 {
+	font-family: "Stalinist One", sans-serif;
+	
+}
+.secondary {
+	width: 30%;
+	float: right;
+	border-left: 1px solid #ddd;
+	padding-left: 5%;
+}
+

@@ -1,0 +1,152 @@
+/* standards */
+
+
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+@import url(http://fonts.googleapis.com/css?family=Prosto+One);
+
+*{
+	margin:0;
+	padding:0;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+
+.row:before, .row:after {
+	display: table;
+	content: "";
+	clear: both;
+	line-height: 0;
+}	
+/* end standards */	
+
+body {
+	background: #eee;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+	color: #777;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+#header {
+	padding: 4em 0 1em;
+	
+}
+
+#content {
+	padding: 3em 0;
+	
+	
+}
+
+.primary {
+	width: 70%;
+	float: right;
+	padding: 2em;
+	background: white;
+	box-shadow: 0 0 7px rgba(0,0,0,0,0.2);
+	
+}
+
+.page .secondary {
+	width: 30%;
+	float: left;
+	padding-right: 2em;
+	
+}
+
+#footer {
+	padding: 2em 0;
+	
+}
+
+
+/*-----------menu--------------*/
+
+.menu li {
+	float: left;
+	list-style: none;
+	width: 22%;
+	margin: 0 0 2em 4%;
+	position: relative;	
+}
+
+.page .menu li {
+	width: 48%;
+	
+	
+}
+
+.menu li:nth-child(4n+1), .page .menu li:nth-child(2n+1){
+	margin-left: 0;
+	clear: left;
+}
+
+.menu li img {
+	width: 100%;
+	vertical-align: bottom;
+	box-shadow: 0 0 7px rgba(0,0,0,0,0.2);
+
+	
+}
+
+h1 {
+	font-family: 'Prosto One', Helvetica, sans-serif;
+	
+}
+h2 {
+	font-family: 'Iceland', Helvetica, sans-serif
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+	
+}
+
+.menu li p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	padding: 0.25em;
+	text-align: center;
+	color: white;
+	
+
+}
+
+@media (max-width:1040px) {
+	
+	.row {margin: 0 20px;
+		
+	}
+}
+ @media (max-width: 600px) {
+	 .primary, .page .secondary {
+		 width: 100%;
+		 float: left;
+		 }
+		 
+		.primary {
+			margin-bottom: 2em;
+				} 
+	 .page .secondary {
+		 padding: 0;
+	 }
+	 
+ }

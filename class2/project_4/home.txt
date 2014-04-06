@@ -1,0 +1,6 @@
+	<div id="homecontent"> 
+		<h3> Welcome to the new home page of the Southern Ohio Museum!</h3>
+		<br></br>
+		<p class="shit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque dui ligula, vitae fringilla turpis. Vestibulum vel lectus turpis, gravida tristique nisl. Vestibulum vehicula eros eget nisi cursus tincidunt. Maecenas id tortor ac lorem mollis bibendum. Pellentesque commodo vestibulum sapien, nec condimentum velit vulputate a. Ut dictum, leo in vulputate semper, dolor justo tincidunt purus, et suscipit nisl nisi ac erat. Donec non ligula magna, ornare fermentum dui. Phasellus sed sapien lacus, non blandit ligula. Sed quis nibh nec velit auctor adipiscing. Sed egestas, libero in blandit rutrum, neque dolor malesuada nibh, eu ultricies turpis nunc a neque. In dignissim aliquam nibh. Aenean nec odio elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec elit tortor. Morbi non leo lacus. Integer id neque eu nibh sodales adipiscing at id dolor.</p>
+	</div><!-------content-------->
+	

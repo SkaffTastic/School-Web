@@ -1,0 +1,142 @@
+* {
+	margin:0;
+	 padding:0;
+	  outline:0;
+}
+
+body {
+	font-family: Myriad Pro, Helvetica, sans-serif;
+	background: #ccc;
+}
+
+.row {
+	width: 940px;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+
+
+#header {
+	padding: 10px 0 10px 0;
+	background: #ccc;
+}
+
+#header h1 {
+	width: 274px; height: 100px;
+	float: left;
+}
+
+#header h1 a {
+	background: url(images/vandelay_logo.png) no-repeat;
+	width: auto; height: 200px;
+	display: block;
+	text-indent: -999em;
+}
+
+@media screen and (max-width: 600px){ 
+	#header h1 {width: 100%;}
+	#header h1 a {background-size: contain;}
+} 
+
+#header ul {
+	float: right;
+	margin: 27px 0;
+}
+
+#header ul li {
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	font-size: 80%;
+}
+
+#header ul li a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 5px 5px;
+}
+
+#header ul li a:hover {
+	background-color: #bbb;	
+}
+
+#banner {
+	padding: 40px 0 20px 0;
+	background: white;
+	position: relative;
+}
+
+#banner .nav a {
+	display: block;
+	width: 50%;
+	height: 100%;
+	text-indent: -999em;
+	background: url(images/prev.png) no-repeat left center;
+	position: absolute;
+	top: 0; left: 0;
+}
+
+#banner .nav a.next {
+	background-image: url(images/next.png);
+	background-position: right center;
+	right: 0; left: auto;
+}
+
+#banner .nav a:hover {
+	opacity: 0.6;
+}
+
+#quote {
+	background: white;
+}
+
+#page {
+	background: white;
+}
+
+#sidebar {
+	float: left;
+	width: 30%;
+	margin-right: 10%;
+	font-size: 80%;
+}
+
+#sidebar h4{
+	padding: 50px 0 20px 0;
+}
+
+#sidebar p{
+	padding: 0 0 20px 0;
+}
+
+
+#main {
+	float: right;
+	width: 60%;
+	font-size: 90%;
+	margin-bottom: 80px;
+}
+
+#main h2{
+	padding: 50px 0 25px 0;
+}
+	
+#main p{
+	padding: 0 0 25px 0;
+}
+
+#footer {
+	font-size: 60%;
+	padding: 30px 0 0 0;
+	background: #ccc;
+}
+
+.leftfooter {
+	float: left;
+}
+
+.rightfooter {
+	float: right;

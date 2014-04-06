@@ -1,0 +1,59 @@
+body {
+		background: #000000;
+		color: #AD0000;
+		font-family: Century Gothic, helvetica, sans-serif;
+		
+		
+}
+
+h1 {
+		text-align: center;
+}
+
+h2 {
+		text-align: center;
+}
+
+.header {
+		border-bottom: 5px double #ad0000;
+		
+}
+
+.info {
+		float: right;
+		position:absolute;
+		left:1050px;
+		top:350px;
+		border-left: 2px double #ad0000;
+		padding-left: 3px;
+		padding-right: 5px;
+		
+}
+
+p {
+		text-align: left;
+		border-bottom: 5px double #ad0000;
+		padding-bottom: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+}
+
+.skills {
+	 	padding-left: 10px;
+		border-right; 5px double #ad0000;
+	
+}
+
+a {
+	text-decoration: none;
+	color: #ad0000;
+	text-decoration: underline;
+}
+
+img {
+	position: fixed;
+	left: 450px;
+	top: 280px;
+}
+
+
